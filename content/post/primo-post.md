@@ -58,3 +58,5 @@ Se avete dubbi nell'installazione seguite la [documentazione ufficiale](https://
 Oltre a generare l'SMBIOS per il vostro Thinkapad Mac vi consiglio di installare [MountEFI](https://github.com/corpnewt/MountEFI) di modo da non dover richiedere la chiavetta USB ad ogni riavvio del sistema. Baseterà montare la partizione EFI sul disco di Mac OS e copiare la cartella EFI della chiavetta al suo interno.
 
 Fatto questo, avete finito. Ora potete godervi il vostro Hackintosh, ed installare qualsiasi applicazione che volete. Io per esempio ho installato Logic per fare musica ed anche Final Cut, entrambi girano da DIO come da loro fama.
+
+![logic](/img/logic.png)
