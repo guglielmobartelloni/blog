@@ -28,6 +28,7 @@ Detto questo iniziamo: mi sono basato sulla repository di [Github](https://githu
 Come precisato dallo stesso utente, i file EFI funzionano per qualsiasi Thinkpad x230 indipendentemente dalla CPU a meno di avere un display modificato a 1440p (per questo vi è un workaround).
 
 Occorrente:
+
 - Una **chiavetta USB** vi consiglio di almeno 8GB, ma anche 4GB dovrebbero andare bene
 - Pazienza, ve ne servirà credetemi
 - Una banana 🍌, da degustare mentre il sistema viene installato 
