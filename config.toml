@@ -13,7 +13,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS"]
 
 [params]
-  header_image = "img/home-bg-jeep.jpg"
+  header_image = "/img/background.jpg"
   SEOTitle = "Home | Blog di Guglilemo Bartelloni"
   description = "Blog personale di Guglielmo Bartelloni"
   keyword = "guglielmo, bartelloni, Guglielmo Bartelloni, linux, bash, arch, chrome os, pixelbook, thinkpad, x230"
