@@ -4,7 +4,7 @@ subtitle:    ""
 description: "Installazione di Mac OS con OpenCore"
 date:        2021-01-17
 author:      "Guglielmo Bartelloni"
-image:       "/img/macos.png"
+image:       "/img/thinkpad-mac-os.png"
 tags:        ["thinkpad x230", "Mac os", "thinkpad x230 mac os", "thnkpad mac os", "opencore", "thinkpad x230 opencore", "thinkpad opencore"]
 categories:  ["Cose da nerd"]
 ---
@@ -60,4 +60,4 @@ Oltre a generare l'SMBIOS per il vostro Thinkapad Mac vi consiglio di installare
 
 Fatto questo, avete finito. Ora potete godervi il vostro Hackintosh, ed installare qualsiasi applicazione che volete. Io per esempio ho installato Logic per fare musica ed anche Final Cut, entrambi girano da DIO come da loro fama.
 
-![logic](/img/logic.png)
+![logic](/img/logic-pro-x-thinkpad.png)
