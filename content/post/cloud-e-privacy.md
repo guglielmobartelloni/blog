@@ -39,6 +39,59 @@ sudo pacman -S gpg
 ```
 
 ma comunque se usate linux dovrebbe essere preinstallato. Per Winzo...cioè Windows potete scaricarlo da [qua](https://gnupg.org/download/).
-Per Android, scaricate [OpenKeychain](https://www.openkeychain.org/) disponibile anche su [F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/) per i più premurosi, vi spiegherò in seguito come usarlo.
+Per Android, scaricate [OpenKeychain](https://www.openkeychain.org/) disponibile anche su [F-Droid](https://f-droid.org/packages/org.sufficientlysecure.keychain/) per i più premurosi, vi spiegherò in seguito come usarlo. Per mac invece lo potete installare con homebrew:
 
-Facciamo un esempio con un file: voglio salvare sul Cloud un file chiamato "Banana", prima di metterlo vado nella cartella
+```js
+brew install gpg
+```
+
+Bene adesso facciamo un esempio con un file: voglio salvare sul Cloud un file chiamato "Banana", prima di fare l'upload apro il terminale e mi sposto nella cartella:
+
+```js
+cd frutta
+```
+
+Quindi eseguo la cifratura simmetrica del file col comando:
+
+```js
+gpg -c banana
+```
+
+Si presenterà una schermata che vi chiederaà di inserire la passphrase INSERIRE IMMAGEINE:
+
+
+Inseritela e FATTO, nella cartella ci sarà un file chiamato nomefile.gpg, nel mio caso banana.gpg che potrete tranquillamente caricare sul cloud senza problemi.
+
+## Cifrare file multipli
+
+Ora vi starete chiedendo come uno possa caricare più di un file se lo volesse. Dobbiamo sostanzialmente trasformare i nostri file in un unico file, per farlo li inseriremo in un archivio compresso. Io userò tar ma voi potete usare quello che volete: 7zip, WinRAR...
+
+Io con tar farò:
+
+```js
+tar -czvf banana.tar.gz cartellaConIFileMultipli
+```
+
+E quindi col comando precedente posso procedere a cifrare l'archivio.
+
+## Decifratura
+
+Per poter decifrare il file che avete caricato sul cloud potete eseguire il comando:
+
+
+```js
+gpg -d banana.gpg
+```
+
+Nella vostra cartella apparirà il file decifrato! INSERIRE MEME
+
+
+## OpenKeyChain Android
+
+
+
+
+
+
+
+
