@@ -1,6 +1,3 @@
 ---
-title: Welcome to Quartz
+title: Guglielmo Bartelloni
 ---
-
-Testone madonna
-jkadjasflkjfjlsjalk
