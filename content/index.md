@@ -1,4 +1,4 @@
 ---
-title: Guglielmo Bartelloni
+title: Home
 ---
 [[domain-driven-design]]
