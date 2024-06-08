@@ -11,5 +11,5 @@ In questo modo si progetta il codice attorno ai requisiti funzionali e non vicev
 
 ## Cos'è allora il dominio?
 
-Un dominio è quello che definiremmo business cioè cio' che fa di un'azienda, un'azienda. Quindi la parte dell'azienda che genera valore.
+Un dominio è quello che definiremmo business cioè ciò che fa di un'azienda, un'azienda. Quindi la parte dell'azienda che genera valore.
 
