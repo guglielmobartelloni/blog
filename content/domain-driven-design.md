@@ -44,6 +44,11 @@ Quando si sta possiamo avere due tipi di oggetti:
 - Entity Object: sono gli oggetti che sono identificati univocamente da un attributo. Es. *Utente* e' identificato da *userId: 1234a*. Quindi nonostante cambino poi gli altri suoi attributi, sappiamo comunque riconoscerlo grazie al suo *id*.
 - Value Object: sono gli oggetti che contengono informazioni che non sono identificate univocamente da un attributo. In questo caso gli oggetti che hanno gli stessi valori degli attributi sono considerati lo stesso oggetto. Es. *Indirizzo* sara' formato da *via*, *citta'*, *CAP* se avessimo due indirizzi con la stessa via, citta' e CAP si tratterebbe dello stesso indirizzo.
 
-Gli *Entity Object* sono importanti nella modellazione del DDD perche' si utilizzano quando abbiamo necessita' di tracciare nel tempo. Infatti quest'ultimi sono degli oggetti mutabili mentre i *Value Object* sono immutabili.
+Gli *Entity Object* sono importanti nella modellazione del DDD perche' si utilizzano per tracciare comportamento e stato che cambiano nel tempo. Infatti quest'ultimi sono degli oggetti mutabili mentre i *Value Object* sono immutabili.
 
-Qualcuno avra' gia' intuito che questi due costrutti si sposano bene con la programmazione ad oggetti (OOP). Non necessariamente pero' siamo limitati ad utilizzare questo tipo di programmazione ma sicuramente risulta intuitivo farlo.
+Qualcuno avra' gia' intuito che questi due costrutti si sposano bene con la programmazione ad oggetti (OOP). Non necessariamente pero' siamo limitati ad utilizzare questo tipo di programmazione sicuramente pero', risulta intuitivo farlo.
+
+
+Puo' capitare che ci siano delle relazioni molto complesse tra le entita' e quindi ogni volta che bisogna utilizzarle insieme puo' risultare difficile comprenderle. In questo caso, si puo' ricorrere agli *Aggregates* che sono delle entita' composte che semplificano l'accesso e rendono piu' comprensibile il modello.
+
+Sono presenti altri concetti nel DDD come *Repository*, *Service*,  *Modules*. Quest'ultimi in realta' sono abbastanza intuitivi per qualcuno che ha gia' fatto programmazione in un qualche framework MVC in queanto essi si usano spesso.
